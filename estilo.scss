@@ -1,0 +1,23 @@
+$fondo:#fae0a9;
+$colortexto:black;
+$colorencabezados:#fa8d83;
+$ruta:"/4.jpg";
+
+h1{
+    color: $colorencabezados;
+    text-align: center;
+    font-size: 60px;
+}
+
+body{
+    background-color: $fondo;
+}
+
+p{
+    color: $colortexto;
+}
+
+#imagen{
+    content:url($ruta);
+    float: right;
+}
